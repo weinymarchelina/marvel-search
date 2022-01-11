@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Search information about your favorite Marvel characters here!"
+    />
+    <meta name="author" content="White Tiger Vision" />
+    <meta name="keywords" content="Marvel Search, Marvel Wikipedia" />
+    <title>Marvel Search</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <script type="module" src="./js/mainTwo.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__left">
+        <img
+          src="./img/marvel-logos-download-marvel-png-logo-5000_2000.png"
+          alt="Logo"
+          class="logo"
+        />
+
+        <a href="./index.html" class="home__link" tabindex="0"> HOME </a>
+      </div>
+
+      <div class="nav__right">
+        <input
+          type="text"
+          class="searchbox"
+          placeholder="Search character"
+          tabindex="0"
+          aria-label="search box"
+        />
+        <ul class="match--list"></ul>
+      </div>
+    </nav>
+
+    <main>
+      <h1 class="hero__sub slide-top">CHARACTER INFO</h1>
+      <div class="hero slide-top">
+        <img
+          src="./img/S__56868866.jpg"
+          alt=""
+          class="hero__img"
+          onerror="this.onerror=null;this.src='./img/S__56868866.jpg'"
+        />
+        <div class="hero__container">
+          <h1 class="hero__title"></h1>
+          <p class="hero__desc"></p>
+          <btn class="hero__btn">
+            <a href="" class="hero__btn__link">Know More</a>
+          </btn>
+        </div>
+      </div>
+
+      <h1 class="sub">COMICS LIST</h1>
+      <div class="comic"></div>
+      <h3 class="moreComic"></h3>
+
+      <h1 class="sub">EVENTS LIST</h1>
+      <div class="event"></div>
+      <h3 class="moreEvent"></h3>
+    </main>
+
+    <footer>
+      Data provided by Marvel. © 2014 Marvel
+      <br />
+      Created by Weiny Marchelina
+    </footer>
+  </body>
+</html>
