@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Search information about your favorite Marvel characters here!"
+    />
+    <meta name="author" content="White Tiger Vision" />
+    <meta name="keywords" content="Marvel Search, Marvel Wikipedia" />
+    <title>Marvel Search</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <script type="module" src="./js/mainOne.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__left">
+        <img
+          src="./img/marvel-logos-download-marvel-png-logo-5000_2000.png"
+          alt="Logo"
+          class="logo"
+        />
+
+        <a href="./index.html" class="home__link" tabindex="0"> HOME </a>
+      </div>
+
+      <div class="nav__right">
+        <input
+          type="text"
+          class="searchbox"
+          placeholder="Search character"
+          tabindex="0"
+          aria-label="search box"
+        />
+        <ul class="match--list"></ul>
+      </div>
+    </nav>
+
+    <main>
+      <h1 class="title tracking-in-expand">Marvel Search</h1>
+
+      <div class="container slide-top">
+        <div class="carousel__track">
+          <ul>
+            <li class="carousel__child current-slide" tabindex="0">
+              <img
+                src="./img/blank.jpg"
+                alt=""
+                onerror="this.onerror=null;this.src='./img/error.png'"
+              />
+              <div class="car-body slide-top">
+                <h3 class="car-title">Title</h3>
+                <p class="car-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Laudantium corporis amet repellat facilis similique. Corrupti
+                  similique fugiat beatae nostrum dignissimos!
+                </p>
+              </div>
+            </li>
+            <li class="carousel__child" tabindex="0">
+              <img
+                src="./img/blank.jpg"
+                alt=""
+                onerror="this.onerror=null;this.src='./img/error.png'"
+              />
+              <div class="car-body slide-top">
+                <h3 class="car-title">Title</h3>
+                <p class="car-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Laudantium corporis amet repellat facilis similique. Corrupti
+                  similique fugiat beatae nostrum dignissimos!
+                </p>
+              </div>
+            </li>
+            <li class="carousel__child" tabindex="0">
+              <img
+                src="./img/blank.jpg"
+                alt=""
+                onerror="this.onerror=null;this.src='./img/error.png'"
+              />
+              <div class="car-body slide-top">
+                <h3 class="car-title">Title</h3>
+                <p class="car-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Laudantium corporis amet repellat facilis similique. Corrupti
+                  similique fugiat beatae nostrum dignissimos!
+                </p>
+              </div>
+            </li>
+            <li class="carousel__child" tabindex="0">
+              <img
+                src="./img/blank.jpg"
+                alt=""
+                onerror="this.onerror=null;this.src='./img/error.png'"
+              />
+              <div class="car-body slide-top">
+                <h3 class="car-title">Title</h3>
+                <p class="car-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Laudantium corporis amet repellat facilis similique. Corrupti
+                  similique fugiat beatae nostrum dignissimos!
+                </p>
+              </div>
+            </li>
+            <li class="carousel__child" tabindex="0">
+              <img
+                src="./img/blank.jpg"
+                alt=""
+                onerror="this.onerror=null;this.src='./img/error.png'"
+              />
+              <div class="car-body slide-top">
+                <h3 class="car-title">Title</h3>
+                <p class="car-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Laudantium corporis amet repellat facilis similique. Corrupti
+                  similique fugiat beatae nostrum dignissimos!
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <button class="btn left" tabindex="0">
+          <img
+            src="./img/unnamed-removebg-preview.png"
+            alt=""
+            aria-label="left carousel button"
+          />
+        </button>
+
+        <button class="btn right" tabindex="0">
+          <img
+            src="./img/unnamed-removebg-preview.png"
+            alt=""
+            aria-label="right carousel button"
+          />
+        </button>
+
+        <div class="carousel_nav">
+          <button
+            class="indicator current-slide"
+            aria-label="first slide indicator button"
+          ></button>
+          <button
+            class="indicator"
+            aria-label="second slide indicator button"
+          ></button>
+          <button
+            class="indicator"
+            aria-label="third slide indicator button"
+          ></button>
+          <button
+            class="indicator"
+            aria-label="fourth slide indicator button"
+          ></button>
+          <button
+            class="indicator"
+            aria-label="fifth slide indicator button"
+          ></button>
+        </div>
+      </div>
+
+      <div class="slide-container">
+        <h2 class="subtitle">Featured</h2>
+
+        <ul>
+          <li class="slide from-right">
+            <img
+              class="slide_img"
+              src="./img/blank.jpg"
+              alt=""
+              onerror="this.onerror=null;this.src='./img/error.png'"
+            />
+            <div class="slide_body">
+              <h2 class="slide_name"></h2>
+              <btn class="slide__btn" tabindex="0"> Info </btn>
+            </div>
+          </li>
+
+          <li class="slide from-left">
+            <img
+              class="slide_img"
+              src="./img/blank.jpg"
+              alt=""
+              onerror="this.onerror=null;this.src='./img/error.png'"
+            />
+            <div class="slide_body">
+              <h2 class="slide_name"></h2>
+              <btn class="slide__btn" tabindex="0"> Info </btn>
+            </div>
+          </li>
+          <li class="slide from-right">
+            <img
+              class="slide_img"
+              src="./img/blank.jpg"
+              alt=""
+              onerror="this.onerror=null;this.src='./img/error.png'"
+            />
+            <div class="slide_body">
+              <h2 class="slide_name"></h2>
+              <btn class="slide__btn" tabindex="0"> Info </btn>
+            </div>
+          </li>
+
+          <li class="slide from-left">
+            <img
+              class="slide_img"
+              src="./img/blank.jpg"
+              alt=""
+              onerror="this.onerror=null;this.src='./img/error.png'"
+            />
+            <div class="slide_body">
+              <h2 class="slide_name"></h2>
+              <btn class="slide__btn" tabindex="0"> Info </btn>
+            </div>
+          </li>
+
+          <li class="slide from-right">
+            <img
+              class="slide_img"
+              src="./img/blank.jpg"
+              alt=""
+              onerror="this.onerror=null;this.src='./img/error.png'"
+            />
+            <div class="slide_body">
+              <h2 class="slide_name"></h2>
+              <btn class="slide__btn" tabindex="0"> Info </btn>
+            </div>
+          </li>
+
+          <li class="slide from-left">
+            <img
+              class="slide_img"
+              src="./img/blank.jpg"
+              alt=""
+              onerror="this.onerror=null;this.src='./img/error.png'"
+            />
+            <div class="slide_body">
+              <h2 class="slide_name"></h2>
+              <btn class="slide__btn" tabindex="0"> Info </btn>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <h2 class="coming--soon">COMING SOON</h2>
+
+      <div class="others-container">
+        <ul>
+          <li class="panel" tabindex="0">
+            <img
+              src="./img/blank.jpg"
+              alt=""
+              class="panel__img"
+              onerror="this.onerror=null;this.src='./img/error.png'"
+            />
+            <h3 class="panel__title">Test</h3>
+          </li>
+          <li class="panel" tabindex="0">
+            <img
+              src="./img/blank.jpg"
+              alt=""
+              class="panel__img"
+              onerror="this.onerror=null;this.src='./img/error.png'"
+            />
+            <h3 class="panel__title">Test</h3>
+          </li>
+          <li class="panel" tabindex="0">
+            <img
+              src="./img/blank.jpg"
+              alt=""
+              class="panel__img"
+              onerror="this.onerror=null;this.src='./img/error.png'"
+            />
+            <h3 class="panel__title">Test</h3>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      Data provided by Marvel. © 2014 Marvel
+      <br />
+      Created by Weiny Marchelina
+    </footer>
+  </body>
+</html>
