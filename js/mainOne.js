@@ -290,8 +290,8 @@ const checkComic = async (e) =>
     "spider-man (peter parker)",
     "green goblin (norman osborn)",
     "doctor octopus",
+    "may parker",
     "electro",
-    "sandman",
     "lizard",
   ];
 updateSlide(featured);
@@ -309,5 +309,5 @@ const panelImg = document.querySelectorAll(".panel__img"),
     };
     for (const n in e) invokeFuncInDataSlide(t, e[n], n);
   },
-  others = ["doctor strange", "scarlet witch", "baron mordo (karl mordo)"];
+  others = ["doctor strange", "scarlet witch", "ancient one"];
 updatePanel(others);
